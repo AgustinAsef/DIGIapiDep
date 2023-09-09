@@ -1,0 +1,51 @@
+* {
+  color: #e9c13d;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  padding: 1rem;
+}
+
+.spacebetwen {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divDetailContainer {
+  background-color: rgba(0, 0, 0, 0.247);
+  border: solid #e9c13d;
+  border-radius: 16px;
+  max-width: 1920px;
+}
+
+.divImgDetailContianer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.divImgDetail {
+  flex-direction: column;
+  width: 100%;
+}
+
+.divSkillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ImgDetail {
+  max-width: 476px;
+  max-height: 576px;
+}
+
+.divCharacteristicsDetailContainer {
+  width: 100%;
+}

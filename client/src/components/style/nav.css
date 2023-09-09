@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1rem;
+}
+
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 0px;
+}
+
+.navimg{
+    height: 100px;
+    width: 100px;
+}
+
+.navText{
+    font-size: 2rem;
+    font-weight: 900;
+}

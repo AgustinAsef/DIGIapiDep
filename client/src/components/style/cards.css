@@ -1,0 +1,55 @@
+.cardsContainerSection {
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cardContainer {
+  width: 300px;
+  height: 400px;
+
+  padding: 0.5rem;
+  margin: 1rem;
+
+  background-image: url("../img/C0PvIV.jpg");
+  background-size: 100%;
+
+  border-radius: 16px;
+}
+
+.cardNameContainer {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: #e9c13d;
+
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid #e9c13d;
+  border-radius: 10px;
+
+  width: fit-content;
+  width: 276px;
+  height: 376px;
+}
+
+
+.cardName {
+  font-size: 100%;
+  font-weight: 700;
+  font-family: inherit;
+
+}
+
+.cardImg {
+  max-width: 276px;
+  max-height: 376px;
+
+  border-radius: 10px 10px 0px 0px;
+}
