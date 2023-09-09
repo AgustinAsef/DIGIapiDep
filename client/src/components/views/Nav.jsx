@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Nav() {
 
     return(
-      <Link to={'https://digiapi-production.up.railway.app/api/digimons/'}>
+      <Link to={'/api/digimons'}>
           <section className="nav">
               <div className="navDiv">
                 <img src={img} alt="logo" className="navimg"/>

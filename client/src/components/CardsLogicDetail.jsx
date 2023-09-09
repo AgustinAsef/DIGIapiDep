@@ -12,7 +12,7 @@ function CartLogicDetail() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const db = await axios.get(`https://digiapi-production.up.railway.app/api/digimons/${questionId}`);
+        const db = await axios.get(`https://digiapidepproduction.up.railway.app/api/digimons/${questionId}`);
         setDigimonData(db.data);
       } catch (error) {
         console.log(error);
