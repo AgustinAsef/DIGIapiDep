@@ -36,8 +36,8 @@ function CardsLogic() {
   return (
     <div>
       <Cards digimons={digimons} />
-      <button onClick={backPage}>Back page</button>
-      <button onClick={nextPage}>Next page</button>
+      <button onClick={backPage} className="m">Back page</button>
+      <button onClick={nextPage} className="m">Next page</button>
     </div>
   );
 }
